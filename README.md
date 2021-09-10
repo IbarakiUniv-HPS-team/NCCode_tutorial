@@ -92,12 +92,7 @@ $ git push origin dev01
 
 ```git
 $ git switch main
-$ git pull origin main
+$ git pull origin main // GitHub上にあるmainの最新verをpullしてくる
 $ git switch dev01
-$ git merge main //ここまでやると反映される？
-($ git push origin test)
+$ git merge origin main
 ```
-
-
-
-
