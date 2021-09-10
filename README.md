@@ -88,17 +88,13 @@ $ git push origin dev01
 #### Merge する
 プルリクエストの内容で問題なければ開発責任者がMergeをする．ここでbranchの内容がmainに反映される．
 
-
--- ここまでの操作を確認 --
-
 #### branchにmainの内容を反映させる
 
 ```git
 $ git switch main
-$ git pull origin main
+$ git pull origin main // GitHub上にあるmainの最新verをpullしてくる
 $ git switch dev01
-$ git merge main //ここまでやると反映される？
-($ git push origin test)
+$ git merge origin main
 ```
 
 
