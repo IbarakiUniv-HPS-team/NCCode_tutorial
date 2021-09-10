@@ -1,8 +1,8 @@
-# NC-Code_tutorial
+# NCCode tutorial
 NC Codeのコード作成チュートリアル
 
 
-## Gitを使った共同開発を経験しよう(2021.09.02)
+## Gitを使った共同開発を経験しよう
 
 ####  このレポジトリをローカルにcloneしよう
 
@@ -10,7 +10,7 @@ NC Codeのコード作成チュートリアル
 $ git clone https://github.com/IbarakiUniv-HPS-team/NCCode_tutorial.git
 ```
 
-#### branchを切ろう．(branch名は苗字のローマ字表記にしよう)
+#### branchを切ろう
 
 ```git
 $ git status
