@@ -6,5 +6,5 @@ using namespace std;
 
 int main()
 {
-    cout << "test01" << endl;
+    cout << "test02" << endl;
 }
